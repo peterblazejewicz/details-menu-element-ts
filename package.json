@@ -4,7 +4,10 @@
   "description": "A workshop: recreate Github's `details-menu` component in TypeScript 3.*",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean && npm run build:esm && npm run build:umd",
+    "build:esm": "tsc -p ./tsconfig.esm.json",
+    "build:umd": "tsc -p ./tsconfig.umd.json"
   },
   "repository": {
     "type": "git",
