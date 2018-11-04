@@ -1,0 +1,32 @@
+{
+  "name": "details-menu-element-ts",
+  "version": "1.0.0",
+  "description": "A workshop: recreate Github's `details-menu` component in TypeScript 3.*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterblazejewicz/details-menu-element-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterblazejewicz/details-menu-element-ts/issues"
+  },
+  "homepage": "https://github.com/peterblazejewicz/details-menu-element-ts#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-github": "^1.6.0",
+    "karma": "^3.1.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "mocha": "^5.2.0",
+    "typescript": "^3.1.6"
+  }
+}
