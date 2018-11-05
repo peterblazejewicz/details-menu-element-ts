@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "target": "es2015",
+        "emitDeclarationOnly": true,
         "declaration": true,
         "sourceMap": true,
         "strict": true,
@@ -10,6 +11,6 @@
         "emitDecoratorMetadata": true
     },
     "files": [
-        "index.ts"
+        "index.js"
     ]
 }
