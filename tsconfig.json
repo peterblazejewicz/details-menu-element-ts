@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "es2015",
+        "target": "esnext",
         "emitDeclarationOnly": true,
         "declaration": true,
         "sourceMap": true,
@@ -8,7 +8,11 @@
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
+        "emitDecoratorMetadata": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ]
     },
     "files": [
         "index.js"
