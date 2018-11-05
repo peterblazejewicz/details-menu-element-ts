@@ -1,6 +1,17 @@
 // @ts-check
 /// <reference path="index.d.ts" />
 class DetailsMenuElement extends HTMLElement {
+
+    get src() {
+        throw new Error('Not implemented');
+        return '';
+    }
+
+    /** @prop {string} value */
+    set src(value) {
+        throw new Error('Not implemented');
+    }
+
     /**
      *
      */
