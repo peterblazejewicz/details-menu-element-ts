@@ -1,8 +1,10 @@
 {
     "compilerOptions": {
         "target": "esnext",
-        "emitDeclarationOnly": true,
-        "declaration": true,
+        "allowJs": true,
+        "checkJs": true,
+        "noEmit": true,
+        "traceResolution": true,
         "sourceMap": true,
         "strict": true,
         "allowSyntheticDefaultImports": true,
@@ -11,10 +13,11 @@
         "emitDecoratorMetadata": true,
         "lib": [
             "esnext",
-            "dom"
+            "dom",
         ]
     },
     "files": [
-        "index.js"
+        "index.js",
+        "index.d.ts"
     ]
 }

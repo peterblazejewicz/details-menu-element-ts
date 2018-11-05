@@ -1,5 +1,4 @@
 // @ts-check
-/// <reference path="index.d.ts" />
 class DetailsMenuElement extends HTMLElement {
 
     get src() {
