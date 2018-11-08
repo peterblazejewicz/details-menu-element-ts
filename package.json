@@ -9,6 +9,8 @@
     "build:umd": "BABEL_ENV=umd babel index.js -o dist/index.umd.js && cp index.d.ts dist/index.umd.d.ts",
     "build:esm": "BABEL_ENV=esm babel index.js -o dist/index.esm.js && cp index.d.ts dist/index.esm.d.ts",
     "build": "npm run build:umd && npm run build:esm",
+    "pretest": "npm run build",
+    "test": "karma start test/karma.config.js",
     "tsc": "tsc -p ./tsconfig.json"
   },
   "repository": {
